@@ -217,6 +217,12 @@
   .footer-inner .logo-lockup .logo{font-size:18px;}
   .footer-inner .logo-icon{width:22px; height:22px;}
   .footer-note{font-size:13px; color:rgba(255,255,255,0.6);}
+  .footer-credit{margin-top:14px; display:flex; justify-content:flex-end; align-items:center; gap:8px; flex-wrap:wrap; font-size:13px; color:rgba(255,255,255,0.6);}
+  .footer-credit strong{color:var(--accent-blue); font-weight:600;}
+  .footer-credit a{color:rgba(255,255,255,0.85); transition:color .15s;}
+  .footer-credit a:hover{color:#fff; text-decoration:underline;}
+  .footer-credit .dot{opacity:.5;}
+  @media (max-width: 860px){ .footer-credit{justify-content:flex-start;} }
 
   @media (max-width: 860px){
     .hero-inner{grid-template-columns:1fr; padding-top:16px;}
@@ -508,6 +514,11 @@
     </div>
     <div class="footer-note" data-i18n="footer.note">© 2026 Altura &amp; Co — Services de nettoyage, Bruxelles &amp; Halle</div>
   </div>
+  <div class="wrap footer-credit">
+    <span><span data-i18n="footer.credit">Site réalisé par</span> <strong>Hugor Rafael</strong></span>
+    <span class="dot">·</span>
+    <a href="tel:+556392589868">+55 63 9258-9868</a>
+  </div>
 </footer>
 
 <script>
@@ -542,7 +553,8 @@ const translations = {
     "contact.title": "Planifions votre premier nettoyage", "contact.sub": "Réponse rapide, avec un devis sans engagement.",
     "contact.vat": "N° TVA : 1029 425 564",
     "whatsapp.text": "Écrivez-nous sur WhatsApp ou appelez-nous directement — comme vous préférez.", "whatsapp.cta": "Discuter sur WhatsApp", "call.cta": "Appeler",
-    "footer.note": "© 2026 Altura & Co — Services de nettoyage, Bruxelles & Halle"
+    "footer.note": "© 2026 Altura & Co — Services de nettoyage, Bruxelles & Halle",
+    "footer.credit": "Site réalisé par"
   },
   nl: {
     "nav.services": "Diensten", "nav.process": "Hoe het werkt", "nav.coverage": "Dekking", "nav.contact": "Contact",
@@ -574,7 +586,8 @@ const translations = {
     "contact.title": "Plan uw eerste schoonmaakbeurt", "contact.sub": "Snel antwoord, met een vrijblijvende offerte.",
     "contact.vat": "BTW-nr.: 1029 425 564",
     "whatsapp.text": "Stuur ons een bericht op WhatsApp of bel ons rechtstreeks — wat u het beste uitkomt.", "whatsapp.cta": "Chat op WhatsApp", "call.cta": "Bellen",
-    "footer.note": "© 2026 Altura & Co — Schoonmaakdiensten, Brussel & Halle"
+    "footer.note": "© 2026 Altura & Co — Schoonmaakdiensten, Brussel & Halle",
+    "footer.credit": "Website gemaakt door"
   },
   en: {
     "nav.services": "Services", "nav.process": "How it works", "nav.coverage": "Coverage", "nav.contact": "Contact",
@@ -606,7 +619,8 @@ const translations = {
     "contact.title": "Let's book your first cleaning", "contact.sub": "Quick reply, with a no-obligation quote.",
     "contact.vat": "VAT No.: 1029 425 564",
     "whatsapp.text": "Message us on WhatsApp or give us a call — whichever works best for you.", "whatsapp.cta": "Chat on WhatsApp", "call.cta": "Call us",
-    "footer.note": "© 2026 Altura & Co — Cleaning services, Brussels & Halle"
+    "footer.note": "© 2026 Altura & Co — Cleaning services, Brussels & Halle",
+    "footer.credit": "Website by"
   },
   pt: {
     "nav.services": "Serviços", "nav.process": "Como funciona", "nav.coverage": "Cobertura", "nav.contact": "Contato",
@@ -638,7 +652,8 @@ const translations = {
     "contact.title": "Vamos marcar sua primeira limpeza", "contact.sub": "Resposta rápida, com orçamento sem compromisso.",
     "contact.vat": "N.º de IVA: 1029 425 564",
     "whatsapp.text": "Chame no WhatsApp ou ligue direto pra gente — do jeito que for melhor pra você.", "whatsapp.cta": "Falar no WhatsApp", "call.cta": "Ligar",
-    "footer.note": "© 2026 Altura & Co — Serviços de limpeza, Bruxelas & Halle"
+    "footer.note": "© 2026 Altura & Co — Serviços de limpeza, Bruxelas & Halle",
+    "footer.credit": "Site feito por"
   }
 };
 
